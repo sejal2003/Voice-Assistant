@@ -1,10 +1,11 @@
-date 16-02-24 started project
-  * installed pyttsx3 module and learnt its working --- text to speech
+This is a simple voice assistant project implemented in Python. It can recognize voice commands and perform various tasks like searching the web, telling joke and facts, playing video on youtube.
+The voice assistant uses the 'speech_recognition' library to recognize spoken commands. It then processes these commands and perform the appropriate actions using python libraries. The 'pyttsx3' library is used for text-to speech syntheis, allowing the assistant to repond to the user.
 
-date 04-03-24
-  * installed pyaudio module -- speech to text
-  * pip is package manager of regular python
-  * conda is package manager of anaconda
-  * r = sr.Recognizer() -- helps to retrive audio from our microphone
-  * with as in pyhton --- with statement is used in exception handling to make the code cleaner and much more readable. It simplifies the management of common resources like file streams.
+To run the project you will need the following:
+Python 3.x
+'speech_recognition' library
+'pyttsx3' library
+'datetime' library
+'randfacts' library
+
    
